@@ -1,4 +1,5 @@
 import logoNavbar from '../assets/images/logo-navbar.png';
+import logoNavbarDesktop from '../assets/images/logo-navbar-desktop.png';
 import Image from 'next/image';
 import MenuIcon from '../assets/icons/menu.svg';
 export const Navbar = () => {
@@ -8,7 +9,8 @@ export const Navbar = () => {
         <div className='py-4 flex items-center justify-between'>
           <div className=''>
             {/* <div className='absolute w-full top-2 bottom-0'></div> */}
-            <Image src={logoNavbar} alt='notepilot logo' height={60} width={60} className='relative' />
+            <Image src={logoNavbar} alt='notepilot logo' height={60} width={60} className='relative block sm:hidden' />
+            <Image src={logoNavbarDesktop} alt='notepilot logo' height={150} width={150} className='relative hidden sm:block' />
           </div>
           <div className='border border-white border-opacity-30 h-10 w-10 inline-flex justify-center items-center rounded-lg sm:hidden'>
             <MenuIcon className='text-white' />
