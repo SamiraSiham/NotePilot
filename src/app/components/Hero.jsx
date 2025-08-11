@@ -2,8 +2,9 @@
 export const Hero = () => {
   return (
     <div className="bg-black text-white bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#5170ff_82%)] py-[72px] sm:py-20 relative overflow-clip">
-      <div className="absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border border-primary bg-[radial-gradient(closest-side,#000_82%,#5170ff)] top-[calc(100%-96px)] sm:top-[calc(100%-120px)]"></div>
+      <div className="absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[2400px] lg:h-[1200px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border border-primary bg-[radial-gradient(closest-side,#000_82%,#5170ff)] top-[calc(100%-96px)] sm:top-[calc(100%-120px)]"></div>
       <div className="container relative">
+        {/* for when there is a new version */}
         {/* <div className="flex items-center justify-center">
           <a href="#" className="inline-flex gap-3 border py-1 px-2 rounded-lg border-white/30">
             <span className="bg-[linear-gradient(to_left,#F87AFF,#FB93D0,#FFDD99,#CF30B2,#2FD8FE)] text-transparent bg-clip-text [-webkit-background-clip:text]">

@@ -8,7 +8,7 @@ export const Navbar = () => {
         <div className='py-4 flex items-center justify-between'>
           <div className=''>
             {/* <div className='absolute w-full top-2 bottom-0'></div> */}
-            <Image src={logoNavbar} alt='notepilot logo' height={70} width={70} className='relative' />
+            <Image src={logoNavbar} alt='notepilot logo' height={60} width={60} className='relative' />
           </div>
           <div className='border border-white border-opacity-30 h-10 w-10 inline-flex justify-center items-center rounded-lg sm:hidden'>
             <MenuIcon className='text-white' />
