@@ -1,4 +1,4 @@
-import { Banner } from "./components/Banner";
+// import { Banner } from "./components/Banner";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { LogoTicker } from "./components/LogoTicker";
@@ -11,7 +11,7 @@ import { Footer } from "./components/Footer";
 export default function Home() {
   return (
     <div className="bg-black">
-      <Banner />
+      {/* <Banner /> */}
       <Navbar />
       <Hero />
       <LogoTicker />

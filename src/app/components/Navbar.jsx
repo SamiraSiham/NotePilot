@@ -4,7 +4,7 @@ import MenuIcon from '../assets/icons/menu.svg';
 export const Navbar = () => {
   return (
     <div className='bg-black'>
-      <div className="px-4">
+      <div className="px-4 sm:px-6">
         <div className='py-4 flex items-center justify-between'>
           <div className=''>
             {/* <div className='absolute w-full top-2 bottom-0'></div> */}
